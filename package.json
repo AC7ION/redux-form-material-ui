@@ -4,9 +4,10 @@
   "description": "An adapter between Redux Form and Material UI components",
   "main": "./lib/index.js",
   "jsnext:main": "./es/index.js",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/erikras/redux-form-material-ui"
+    "url": "https://github.com/AC7ION/redux-form-material-ui"
   },
   "scripts": {
     "build": "npm run build:lib && npm run build:es && npm run build:umd && npm run build:umd:min",
@@ -29,12 +30,10 @@
     "redux-form-material-ui",
     "adapter"
   ],
-  "author": "Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/erikras/redux-form-material-ui/issues"
   },
-  "homepage": "https://github.com/erikras/redux-form-material-ui",
   "devDependencies": {
     "babel-cli": "^6.3.17",
     "babel-core": "^6.3.26",
